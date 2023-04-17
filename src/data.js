@@ -61,12 +61,15 @@ export const housesData = [
     name: 'House 1',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House1,
-    imageLg: House1Lg,
+    image: [House1, House10, House10Lg, House11, House10Lg, House11, House10Lg, House11, House10Lg, House11],
+    imageLg: House10Lg,
     country: 'United States',
     address: '7240C Argyle St. Lawndale, CA 90260',
     bedrooms: '6',
     bathrooms: '3',
+    wifi:1,
+    parking:0,
+    kitchen: 1,
     surface: '4200 sq ft',
     year: '2016',
     price: '110000',
@@ -75,6 +78,55 @@ export const housesData = [
       name: 'Patricia Tullert',
       phone: '0123 456 78910',
     },
+    reviews :[
+      {
+        image: Agent1,
+        name: 'John Doe',
+        date: 'April 15, 2023',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat enim quis lectus sagittis lobortis.',
+        rating: 4
+      },
+      {
+        image: Agent1,
+        name: 'Jane Smith',
+        date: 'April 13, 2023',
+        description: 'Praesent vitae nisl suscipit, dignissim enim vel, bibendum orci. Nam vel nunc ex. Sed sit amet lectus vitae sapien ullamcorper tincidunt ac eu sapien.',
+        rating: 3
+      },
+      
+      {
+        image: Agent1,
+        name: 'Jane Smith',
+        date: 'April 13, 2023',
+        description: 'Praesent vitae nisl suscipit, dignissim enim vel, bibendum orci. Nam vel nunc ex. Sed sit amet lectus vitae sapien ullamcorper tincidunt ac eu sapien.',
+        rating: 4
+      },
+      
+      {
+        image: Agent1,
+        name: 'Jane Smith',
+        date: 'April 13, 2023',
+        description: 'Praesent vitae nisl suscipit, dignissim enim vel, bibendum orci. Nam vel nunc ex. Sed sit amet lectus vitae sapien ullamcorper tincidunt ac eu sapien.',
+        rating: 5
+      },
+      
+      {
+        image: Agent1,
+        name: 'Jane Smith',
+        date: 'April 13, 2023',
+        description: 'Praesent vitae nisl suscipit, dignissim enim vel, bibendum orci. Nam vel nunc ex. Sed sit amet lectus vitae sapien ullamcorper tincidunt ac eu sapien.',
+        rating: 2
+      },
+      
+      {
+        image: Agent1,
+        name: 'Jane Smith',
+        date: 'April 13, 2023',
+        description: 'Praesent vitae nisl suscipit, dignissim enim vel, bibendum orci. Nam vel nunc ex. Sed sit amet lectus vitae sapien ullamcorper tincidunt ac eu sapien.',
+        rating: 3
+      },
+      
+    ],
   },
   {
     id: 2,
